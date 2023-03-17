@@ -1,0 +1,269 @@
+.background-image img{
+width: 100%;
+height: 80%;
+}
+.popular-hotels{
+ text-align: center;
+ font-size: 40px;
+ font-family: sans-serif;
+ font-weight: bold;
+}
+.popular-images {
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: 20px;
+ width: 90%;
+ height: 60%;
+}
+.popular-images button{
+ color: rgb(116, 226, 226);
+ padding: 20px;
+ margin: 20%;
+  /* border-color:  rgb(116, 226, 226); */
+  /* margin-left: 60%; */
+  border-color:  rgb(116, 226, 226);
+ 
+}
+.facilities h2{
+ text-align: center;
+ font-size: 40px;
+ font-family: sans-serif;
+ font-weight: bold;
+}
+/* .icons
+display: flex;
+justify-content: space-between;
+margin: 20px; */
+
+.icons .wifi{
+  font-size: 40px; 
+  color:  rgb(116, 226, 226); 
+}
+.icons .Dinner{
+    font-size: 40px; 
+    color:  rgb(116, 226, 226);  
+}
+.icons .lunch{
+    font-size: 40px; 
+    color:  rgb(116, 226, 226);  
+} 
+ .facilities2 .More{
+    font-size: 40px; 
+    color:  rgb(116, 226, 226);  
+ }
+
+.rooms h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.rooms .text{
+    text-align: center;
+}
+.rooms .room-images1{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+/* height: 20%;
+width: 90%; */
+}
+.rooms .room-images2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    /* height: 30%;
+    width: 90%; */
+}
+.Foods h2{
+ text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.Foods .Lorem{
+    text-align: center;
+}
+.meals{
+ display: flex;
+ justify-content: space-between;
+}
+.Foods .meals{
+    display: grid;
+  
+}
+.foods-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+   
+}
+.foods-images img{
+    width: 90%;
+    height: 70%;
+    
+}
+.foods-images .foody{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    
+}
+.foods-images2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+.foods-images2 .foody{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    margin-top: 20%; 
+}
+.foods-images2 .foody img{
+    width: 90%;
+    height: 70%;
+    
+} 
+
+.clients p{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.Lorem2 {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   justify-content: space-between;
+  
+}
+.Lorem2 .karim{
+    width: 40%;
+    height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8); 
+}
+.Lorem2 .headshot1{
+ width: 80px;
+ height: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8); 
+}
+.Lorem2 .headshot2{
+width: 30%;
+height: 40%;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8); 
+}
+
+.choose-us h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold; 
+}
+/* .us .luxury-hotels p{
+   font-size: 40px; 
+   
+}*/
+.us{
+    display: flex;
+    margin-right: 10%;
+    gap: 10%;
+    /* float: right; */
+   
+}
+.facilities .icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+}
+.room-images1 .room-{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+   
+}
+.room-images2 .ro{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    margin-top: 20px;
+}
+.room-images1 img{
+    height: 70vh;
+    width: 100%;
+}
+.icons img .lunch{
+ background-color: rgb(0, 38, 255);
+}
+.lastpicture img{
+    width: 400px;
+    height: 500px;
+    margin-left: 9%;
+    margin-top: 7%;
+    margin-right: 7%;
+    border-radius: 10%;
+ 
+}
+
+.luxury-rooms .luxury-hotels{
+ font-size: 60px;
+ color: rgb(0, 119, 255);
+}
+.luxury-rooms .Bed-icon{
+    font-size: 60px;
+    color: rgb(0, 119, 255);  
+}
+.luxury-rooms .fastfood{
+    font-size: 60px;
+    color: rgb(0, 119, 255);  
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    margin-left: 10%;
+
+}
+.buttons button{
+    padding: 15px 35px;
+    border-style: none;
+    color: white;
+    background-color:#4dabf7 ;
+}
+.luxury-rooms ul{
+    display: flex;
+    list-style: none;
+    gap: 8%;
+
+}
+.luxury-rooms ul li{
+    gap: 5%;
+}
+#luxuryicons{
+    width: 90px;
+    height: 90px;
+    color: #4dabf7;
+    background-color: #e9ecef;
+    border-radius: 100%;
+    padding: 10px;
+    margin-right: 7%;
+}
+.foods-images .foody .button{
+    width: 90px;
+    color: #4dabf7;
+    padding: 10px;
+}
+.foods-images2 .foody .button2{
+    width: 90px;
+    color: #4dabf7;
+    padding: 10px;
+}
+.room-images2 .ro .button3{
+    width: 90px;
+    color: #4dabf7;
+    padding: 10px;
+    height: 30px;
+}
+.room-images1 .room- .book{
+    width: 90px;
+    color: #4dabf7;
+    padding: 10px;
+    height: 30px;
+}
+.popular-images .seemore{
+    width: 40%;
+    
+}
