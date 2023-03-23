@@ -197,9 +197,9 @@ height: 50%;
     font-weight: bold; 
 }
 
-   font-size: 40px; 
+
    
-}*/
+
 .us{
     display: flex;
     margin-right: 10%;
@@ -342,7 +342,12 @@ height: 50%;
 }
 .lunch{
     padding:20px ;
+    
 }
+.page2 button{
+    padding: 40%;
+    margin: 40%;
+  }
  @media screen and (max-width:800px){
     .footer{
         display: grid;
@@ -371,6 +376,282 @@ height: 50%;
         width: 50%;
         border-radius: 10px;
        } 
+       
 
     
+    }
+    body{
+        background-color: #e9ecef;
+        background-size: cover;
+        
+    }
+    .Images {
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     gap: 5%;
+     margin-top: 10%;
+
+    }
+    .villa{
+        height: 400px;
+        width: 400px;
+    }
+    .FirstImages{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20%;
+        width: 60%;
+      
+       }
+
+  
+    .Images img{
+        width: 40%;
+        height: 40%;
+    }
+    .secondparagraph{
+        /* display: grid;
+        grid-template-columns: repeat(2,1fr); */
+        display: flex;
+        justify-content: space-between;
+    }
+    .secondparagraph .star5{
+        margin-top: 24%;
+         margin-left: 0%; 
+         /* margin-right: 80%; */
+    }
+    /* .Buttons{
+        -content: space-between;
+        display: flex;
+        justify
+    } */
+    /* .Buttons .Later {
+       color: #e9ecef;
+     border-style: none;
+      padding: 10px; 
+  
+     
+    } */
+    
+    .booknow button{
+     background-color: #1c7ed6;
+     color: #f8f9fa;
+     border-style: none;
+     padding: 10px;
+    }
+    .notnow button{
+         background-color: #1c7ed6; 
+        color: #f8f9fa;
+        border-style: none;
+        padding: 10px; 
+    }
+    .Heading a{
+        text-decoration: none;
+         padding: 20px; 
+        color: black;
+        font-size: 20px;
+    
+    }
+    .Heading button{
+        padding: 10px;
+        width: 10%;
+        background-color: #1c7ed6;
+        border-style: none;
+     } 
+     
+     .see-more{
+        padding: 10px;
+        width: 10%;
+        background-color: #1c7ed6;
+        border-style: none;
+        margin-left: 50%;
+        
+       
+     }
+     .facilities{
+        display: flex;
+        justify-content: space-between;
+     }
+     .facilities .FACILITIES{
+        margin-bottom: 50%;
+     }
+     .pages{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+     }
+     .Foods-facilities{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        margin-right: 30%;
+        gap: 20%;
+        background-color: whitesmoke;
+        width: 30%;
+       padding: 10px;
+       height: 20%;
+       border-radius: 10px;
+     }
+    
+     /* .star5 p{
+         margin-top: 30%;
+        
+     } */
+     .Details p{
+        margin-top: 25%;
+       
+     }
+     footer{
+        background-color: #f8f9fa;
+        height: 30%;
+     }
+     /* footer .last-page-footer{
+         margin-left: 60%; 
+        display: grid;
+        grid-template-columns: repeat(2,1fr); */
+     
+     .Images .FirstImages img{
+        width: 100%;
+        height: 150%;
+        border-radius: 10px;
+
+
+      
+     }
+     .Images .villa{
+        width: 201%;
+        height: 180%;
+     }
+     .Images .FirstImages .lastnames{
+        height: 50%;
+        width: 100%;
+     }
+     /* .icon p{
+        font-size: 30px;
+        display: flex;
+     } */
+     .footerr{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+     }
+     .footerr .icon{
+        font-size: 30px;
+        display: flex;
+        gap: 40px;
+        margin-top: 40px;
+        padding-left: 10%;
+     }
+     .last-page-footer{
+        display: flex;
+        gap: 20px;
+     }
+     .page3 button a{
+        padding: 40px;
+        margin: 20px;
+     }
+
+     body{
+        background-color: #e9ecef;
+        background-size: cover;
+        
+    }
+    .Heading a{
+        text-decoration: none;
+         padding: 20px; 
+        color: black;
+        font-size: 20px;
+        
+       
+    }
+    .Heading button{
+        padding: 10px;
+        width: 10%;
+        background-color: #1c7ed6;
+        border-style: none;
+    }
+    .lorem1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .lorem1 img{
+        margin-top: 20px;
+    }
+    
+    .overall{
+     text-align: center;
+     font-family: sans-serif;
+     font-weight: bold;
+     font-size: 40px;
+    }
+    .short-story p{
+        font-weight: lighter;
+        font-size: 20px;
+    }
+
+    .lorem1 .short-story button{
+        padding: 10px;
+        margin: 50px;
+        width: 20%;
+        color:#1c7ed6;
+        border-color: #1c7ed6;
+       border-radius: 10px;
+    }
+    .lorem4{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .lorem4 .our-vision p{
+        font-weight: lighter;
+        font-size: 20px;
+    }
+    .lorem4 img{
+        width: 90%;
+    }
+    .our-vision button{
+        padding: 10px;
+        margin: 50px;
+        width: 20%;
+        color:#1c7ed6;
+        border-color: #1c7ed6;
+       border-radius: 10px;
+    }
+    .lorem5{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .lorem5 p{
+        font-weight: lighter;
+        font-size: 20px; 
+    }
+    .lorem5 img{
+        height: 80%;
+        width: 100%;
+    }
+
+    .lorem5 .our-approach button{
+        padding: 10px;
+        margin: 50px;
+        width: 20%;
+        color:#1c7ed6;
+        border-color: #1c7ed6;
+       border-radius: 10px;
+    }
+    .last-footer{
+        background-color: #f8f9fa;
+        height: 20%;
+    }
+    .paragraph-footer p {
+        font-weight: lighter;
+        font-size: 20px; 
+    }
+    .paragraph-footer h3{
+        font-weight: lighter;
+        font-size: 20px; 
+        font-weight: bold;
+    }
+    .paragraph-footer{
+        display: flex;
+        gap: 20px;
     }
