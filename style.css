@@ -689,13 +689,7 @@ height: 50%;
        justify-content: space-between; 
       
      }
-    /* .icons{
-        display: flex;
-       justify-content: space-between;
-       gap: 40%;
-       font-size: 200%;
-       padding-top: 30%;
-    } */
+    
     .footer-paragraph p{
        padding-left: 20%;
        padding-top: 40px;
@@ -710,9 +704,74 @@ height: 50%;
         gap: 80%;
         padding-left: 10%;
     }
-    
 
-    @media screen and (max-width:800px){
+     .contact-us{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+         
+     }
+     .help{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+     }
+     .ipsum{
+        text-align: center;
+         
+     }
+     form{
+        width: 90%;
+        max-width: 600px;
+
+     }
+      .Customer-info{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        margin: 20px;
+
+     } 
+     
+      
+
+      input{
+       width: 150%;
+       height: 50%;
+       border: none;
+       
+     } 
+    
+    
+    
+     textarea{
+          width: 70%;
+          padding: 10px;
+          border: 1px solid #fff;
+          color: #fff;
+          font-size: 15px;
+          height: 0px;
+     }
+
+     .contact-footer{
+        margin-top: 20%;
+     }
+     .Customer-info .input-group{
+        width: 180px;
+     }
+
+     .shei{
+         padding: 20px;
+          margin: 20px; 
+     }
+     /* .Resources {
+        margin-top: 0px; 
+      
+     }
+      
+     */
+
+    /* @media screen and (max-width:800px){
         .footer{
             display: grid;
         }
@@ -741,5 +800,5 @@ height: 50%;
             border-radius: 10px;
            } 
         }
-           
-    
+        
+     */
