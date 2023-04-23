@@ -460,10 +460,11 @@ height: 50%;
     
     }
     .Heading button{
-        padding: 10px;
-        width: 10%;
-        background-color: #1c7ed6;
+        padding: 5px;
+         width: 10%; 
+         background-color: #1c7ed6; 
         border-style: none;
+        gap: 20px;
         
      } 
      
@@ -701,8 +702,8 @@ height: 50%;
         font-size: 200%;
         display: flex;
         justify-content: space-between;
-        gap: 80%;
-        padding-left: 10%;
+        gap: 60%;
+        padding-left: 5%;
     }
 
      .contact-us{
@@ -727,9 +728,6 @@ height: 50%;
      }
       .Customer-info{
         display: flex;
-        justify-content: space-between;
-        padding: 20px;
-        margin: 20px;
 
      } 
      
@@ -739,7 +737,7 @@ height: 50%;
        width: 150%;
        height: 50%;
        border: none;
-       
+      padding-right: 60px;
      } 
     
     
@@ -758,6 +756,10 @@ height: 50%;
      }
      .Customer-info .input-group{
         width: 180px;
+        padding: 80px;
+       
+        
+
      }
 
      .shei{
@@ -765,14 +767,15 @@ height: 50%;
           margin: 20px; 
      }
      /* .Resources {
+
         margin-top: 0px; 
       
      }
       
      */
 
-    /* @media screen and (max-width:800px){
-        .footer{
+     /* @media screen and (max-width:800px){ */
+        /* .footer{
             display: grid;
         }
         .header img{
@@ -800,5 +803,84 @@ height: 50%;
             border-radius: 10px;
            } 
         }
+         */
+         @media screen and (max-width: 800px){
+            .last-footer .social-icons{
+                font-size: 150%;
+                 gap: 30%; 
+                padding-left: 10px;
+            }
+             .Customer-info .input-group{
+                width: 180px;
+                padding: 80px;
+                
+             } 
+             input{
+                width: 150%;
+                height: 50%;
+               padding-right: 70px;
+              } 
+              .Customer-info{
+                margin-left:0px;
+              }
+         }
+         @media screen and (max-width: 600px){
+             .Heading button{
+                padding:0px;
+
+            } 
+            input{
+                width: 150%;
+                height: 50%;
+               padding-right:5px;
+              } 
+              .Customer-info .input-group{
+                width: 180px;
+                padding: 40px;
+                margin-bottom: 30px;
+                
+             } 
+             /* .Heading button{
+                padding: 20px;
+                  width: 10%;  
+                 background-color: #1c7ed6; 
+                border-style: none;
+                
+             } 
+             */
+         }
+         @media screen and (max-width:450px){
+            .last-footer .social-icons{
+                flex-direction: column;
+                 padding: 20px; 
+              padding-left: 20px;
         
-     */
+            }
+            .paragraph-footer{
+                flex-direction: column;
+                margin-left:10%;
+                padding: 20px;
+              
+            }
+            input{
+                width: 150%;
+                height: 50%;
+               padding-right:0px;
+               
+              } 
+              .Customer-info .input-group{
+                width: 180px;
+                padding: 30px;
+                margin-bottom: 30px;
+                
+             } 
+         }
+
+        /* @media screen and (max-width:800px){
+            .lorem1{
+                
+            }
+
+        } */
+
+     
